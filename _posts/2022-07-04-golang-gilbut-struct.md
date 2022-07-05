@@ -1,6 +1,6 @@
 ---
 title:  "구조체"
-excerpt: "temporary post excerpt"
+excerpt: "구조체, 리시버, 임베딩, 인터페이스 사용"
 
 toc: true
 toc_sticky: true
@@ -8,7 +8,7 @@ toc_sticky: true
 published: true
 
 categories:
-  - golang
+  - Books
 tags:
   - 가장 빨리 만나는 Go언어
 sitemap:
@@ -57,7 +57,7 @@ func main() {
 
 # 3. 임베딩
 임베딩은 클래스의 상속과 같은 효과를 낼 수 있다.
-## Has-a
+## 3.1. Has-a
 ```go
 package main
 
@@ -82,7 +82,7 @@ func main() {
 }
 ```
 
-## Is-a
+## 3.2. Is-a
 ```go
 package main
 
@@ -114,7 +114,6 @@ func main() {
 
 # 4. 인터페이스
 덕 타이핑 : 실제 타입은 상관하지 않고 구현된 메서드로만 타입을 판단
-
 ```go
 type Quacker interface {
     quack()

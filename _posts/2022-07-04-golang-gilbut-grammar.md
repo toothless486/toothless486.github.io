@@ -1,6 +1,6 @@
 ---
-title:  "문법 익숙해지기"
-excerpt: "temporary post excerpt"
+title:  "간단한 문법 사용"
+excerpt: "golang을 시작하기 위한 간단한 문법을 사용하여 예시문제 해결"
 
 toc: true
 toc_sticky: true
@@ -8,7 +8,7 @@ toc_sticky: true
 published: true
 
 categories:
-  - golang
+  - Books
 tags:
   - 가장 빨리 만나는 Go언어
 sitemap:
@@ -16,7 +16,7 @@ sitemap:
   priority: 0.8
 ---
 
-### FizzBuzz
+# 1. FizzBuzz
 ```go
 package main
 
@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-### Bottles
+# 2. Bottles
 ```go
 package main
 
