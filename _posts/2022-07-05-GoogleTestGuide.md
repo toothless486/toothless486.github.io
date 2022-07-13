@@ -1,6 +1,6 @@
 ---
 title:  "Google Test 시작하기"
-
+excerpt: "Google Test"
 toc: true
 toc_sticky: true
 
