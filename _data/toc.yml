@@ -1,14 +1,20 @@
-- title: Documentation
-  url: docs
+- title: "About"
+  url: "about"
+
+- title: "Recent"
+  url: "news"
+
+- title: "Algorithms"
+  url: "algorithms"
+
+- title:  "Books"
+  url: "books"
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
-      children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+    - title: "가장 빨리 만나는 Go언어"
+      url: "docs/books/fater-meet-golang"
+  links:
+    - title: "GoogleTestGuide"
+      url: "docs/books/GoogleTestGuide"
+
 - title: "Tags"
   url: "tags"
