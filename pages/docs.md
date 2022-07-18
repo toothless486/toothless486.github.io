@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Algorithms
-permalink: /docs/algorithms/
+title: Documentation
+permalink: /docs/
 ---
 
-# Algorithms
+# Documentation
 
-Welcome to the {{ site.title }} Algorithms pages! Here you can quickly jump to a 
+Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
 particular page.
 
 <div class="section-index">

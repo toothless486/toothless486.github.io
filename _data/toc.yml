@@ -1,20 +1,25 @@
-- title: "About"
-  url: "about"
-
-- title: "Recent"
-  url: "news"
-
-- title: "Algorithms"
-  url: "algorithms"
-
-- title:  "Books"
-  url: "books"
+- title: Documentation
+  url: docs
   links:
-    - title: "가장 빨리 만나는 Go언어"
-      url: "docs/books/fater-meet-golang"
+    - title: "Getting Started"
+      url: "docs/getting-started"
+      children:
+        - title: Features
+          url: "docs/getting-started#getting-started"
+        - title: Development
+          url: "docs/getting-started#development"
+        - title: Customization
+          url: "docs/getting-started#customization"
+    - title: Versioning
+      url: "docs/versioning"
+    - title: "About"
+      url: "about"
+    - title: "News"
+      url: "news"
+- title: "Extras"
+  url: "docs/extras"
   links:
-    - title: "GoogleTestGuide"
-      url: "docs/books/GoogleTestGuide"
-
-- title: "Tags"
-  url: "tags"
+    - title: Quizzes
+      url: "docs/extras/example-quiz"
+    - title: Tags Page
+      url: "tags"
