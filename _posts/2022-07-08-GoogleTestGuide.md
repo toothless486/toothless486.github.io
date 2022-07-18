@@ -1,19 +1,10 @@
 ---
 title:  "Primer"
-excerpt: "Google Test"
-
-toc: true
-toc_sticky: true
-
-published: true
-
+classes: wide
 categories:
   - References
 tags:
   - GoogleTest
-sitemap:
-  changefreq: daily
-  priority: 0.8
 ---
 
 # Primer

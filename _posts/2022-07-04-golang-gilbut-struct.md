@@ -1,19 +1,10 @@
 ---
 title:  "구조체"
-excerpt: "구조체, 리시버, 임베딩, 인터페이스 사용"
-
-toc: true
-toc_sticky: true
-
-published: true
-
+classes:  wide
 categories:
   - Books
 tags:
   - 가장 빨리 만나는 Go언어
-sitemap:
-  changefreq: daily
-  priority: 0.8
 ---
 
 # 1. 구조체

@@ -1,19 +1,11 @@
 ---
 title:  "간단한 문법 사용"
 excerpt: "golang을 시작하기 위한 간단한 문법을 사용하여 예시문제 해결"
-
-toc: true
-toc_sticky: true
-
-published: true
-
+classes:  wide
 categories:
   - Books
 tags:
   - 가장 빨리 만나는 Go언어
-sitemap:
-  changefreq: daily
-  priority: 0.8
 ---
 
 # 1. FizzBuzz
