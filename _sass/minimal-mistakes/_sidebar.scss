@@ -336,7 +336,7 @@
     top: initial;
     right: initial;
     width: initial;
-    margin-right: initial;
+margin: 2em 3em 0 0;
     padding-left: initial;
     z-index: initial;
 
@@ -347,7 +347,6 @@
 
   @include breakpoint($x-large) {
     width: initial;
-    margin-right: initial;
   }
 }
 
