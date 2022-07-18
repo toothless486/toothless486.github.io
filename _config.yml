@@ -23,42 +23,17 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://vsoch.github.io" # the base hostname & protocol for your site
+url: "https://jayasou.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
-github_user: "vsoch"
-github_repo: "docsy-jekyll"
-github_branch: "master"
+repo: "https://github.com/jayasou"
+github_user: "jayasou"
+github_repo: "jayasou.github.io"
+github_branch: "gh-pages"
 
-# Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
-
-# These options are used to configure the locations of your version history when you want to serve versioned documents
-version_params:
-  version_menu: "Release"
-  version_dir: Archive
-  tocversion_dir: versions
-  versioning: true
-
-  # Disable so older versions cannot be searched
-  allow_search: true  
-
-  # Allow these versions to be searched
-  search_versions:
-    - Previous
-  latest: Current
-  versions:
-    - Current
-    - Previous
-
-# Should there be feedback buttons at the bottom of pages?
-feedback: true
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
