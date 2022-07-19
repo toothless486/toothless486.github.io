@@ -6,9 +6,6 @@ categories:
 tags:
   - GoogleTest
 ---
-
-# Primer
-
 ### Assertions
 
 ASSERTION_* 을 사용했을 때 실패가 발생하면, 현재 테스트 중인 함수를 중단시키고 실패 메시지를 출력합니다. EXPECT_* 을 사용했을 때 실패가 발생하면, 현재 테스트 중인 함수를 중단하지 않습니다. 실패 메시지를 custom 할 수 있는데, 사용법은 `<<` 연산자를 사용해주면 됩니다.
@@ -44,7 +41,7 @@ TEST(FactorialTest, HandlesPositiveInput) {
 }
 ```
 
-### ****Test Fixtures: Using the Same Data Configuration for Multiple Tests****
+### Test Fixtures: Using the Same Data Configuration for Multiple Tests
 
 같은 test data를 이용하여 다양한 테스트 케이스를 만들고 싶을 때, test fixture을 사용합니다.
 
@@ -78,9 +75,6 @@ class QueueTest : public ::testing::Test {
 	{
 			if(n) delete n;
 	}
-
-  
-
   Queue<int> q0_;
   Queue<int> q1_;
   Queue<int> q2_;

@@ -6,10 +6,7 @@ categories:
 tags:
   - GoogleTest
 ---
-
-# GoogleTest
-
-[GoogleTestGuides]([http://google.github.io/googletest/quickstart-bazel.htm](http://google.github.io/googletest/quickstart-bazel.html))
+다음 글은 [GoogleTestGuides]([http://google.github.io/googletest/quickstart-bazel.htm](http://google.github.io/googletest/quickstart-bazel.html))를 나름대로 해석한 내용입니다.
 
 # 1. Prerequisites
 
