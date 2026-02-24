@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mutex에서 RWLock으로 - 동시성 문제의 마지막 퍼즐"
+title: "[Lock 디버깅 #2] Mutex에서 RWLock으로 - 동시성 문제의 마지막 퍼즐"
 date: 2026-02-23 01:00:00 +0900
 categories: [동시성]
 tags: [C, RWLock, Mutex, TCP, FullDuplex, 멀티스레드, 동시성]
