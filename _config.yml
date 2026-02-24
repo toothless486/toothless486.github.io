@@ -1,6 +1,8 @@
 lang: ko-KR
 timezone: Asia/Seoul
 
+theme: jekyll-theme-chirpy
+
 title: toothless486
 tagline: 개발 일기
 description: >-
