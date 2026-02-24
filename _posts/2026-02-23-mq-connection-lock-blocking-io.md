@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MQ 연결이 자꾸 끊긴다 - Lock과 Blocking I/O의 함정"
+title: "[Lock 디버깅 #1] MQ 연결이 자꾸 끊긴다 - Lock과 Blocking I/O의 함정"
 date: 2026-02-23 00:00:00 +0900
 categories: [동시성]
 tags: [C, STOMP, MQ, Mutex, BlockingIO, 멀티스레드, 디버깅]
