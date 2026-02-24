@@ -1,0 +1,17 @@
+# Bundler cache
+.bundle
+vendor
+
+# Jekyll cache
+.jekyll-cache
+_site
+
+# RubyGems
+*.gem
+
+# NPM packages
+node_modules
+package-lock.json
+
+# Misc
+assets/js/dist
