@@ -4,6 +4,7 @@ title: "AI 코드 리뷰를 받으면? 검증과 수정까지 자동화해버렸
 date: 2026-03-19 00:00:00 +0900
 categories: [백엔드]
 tags: [Python, FastAPI, Claude, Bitbucket, Docker, 자동화, AI]
+mermaid: true
 ---
 
 > 팀장님이 AI 코드 리뷰 시스템을 만들어주셨다. 나는 거기서 한 발 더 나아가기로 했다.
