@@ -5,6 +5,7 @@ date: 2026-03-19 00:00:00 +0900
 categories: [백엔드]
 tags: [Python, FastAPI, Claude, Bitbucket, Docker, 자동화, AI]
 mermaid: true
+description: "Bitbucket PR 리뷰 댓글을 감지해 AI가 A/B/C로 분류하고 코드 수정·commit·push까지 자동화한 Docker 기반 파이프라인 구현기. SQLite로 컨테이너 간 상태를 공유하고 Claude CLI로 코드를 직접 수정한다."
 ---
 
 > 팀장님이 AI 코드 리뷰 시스템을 만들어주셨다. 나는 거기서 한 발 더 나아가기로 했다.
@@ -13,7 +14,7 @@ mermaid: true
 
 ## 배경
 
-우리 팀에는 PR(Pull Request, 코드 변경사항을 팀원에게 리뷰받기 위해 올리는 요청)을 올리면 AI가 자동으로 코드 리뷰 댓글을 달아주는 시스템이 있다. 팀장님이 만들어두신 것이다.
+우리 팀에는 PR(Pull Request, 코드 변경사항을 팀원에게 리뷰받기 위해 올리는 요청)을 올리면 AI가 자동으로 코드 리뷰 댓글을 달아주는 시스템이 있다. 팀장님이 만들어두신 것이다([Claude API로 PR 코드 리뷰 자동 검증 서버 만들기](/posts/claude-pr-review-validator/)).
 
 리뷰 댓글이 달리면 나는 그걸 읽고, 판단하고, 코드를 고치고, 다시 커밋(변경사항 저장)해야 한다. 반복적인 패턴이다.
 
