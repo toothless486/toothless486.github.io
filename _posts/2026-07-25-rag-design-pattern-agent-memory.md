@@ -3,7 +3,6 @@ layout: post
 title: "RAG 디자인 패턴과 Agent Memory: Self-RAG부터 GraphRAG, Neo4j 메모리까지"
 date: 2026-07-25 00:00:00 +0900
 categories: [AI, RAG]
-tags: [RAG, GraphRAG, Neo4j, LLM, KnowledgeGraph, AgentMemory, VectorDB, AI]
 description: "LLM과 Advanced RAG의 한계, 이를 보완하는 Self/CRAG/Adaptive RAG 패턴, GraphRAG와 Knowledge Graph, 그리고 Neo4j 기반 Agent Memory 설계까지 정리한다."
 ---
 
